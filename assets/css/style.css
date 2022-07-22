@@ -1,0 +1,191 @@
+:root {
+    --primary-color: #a2ac77;
+    --secondary-color: pink;
+    --tertiary-color: cadetblue;
+}
+body {
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header {
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-image: url("../images/header-background.png");
+    height: 40px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+header {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+}
+header a {
+    text-decoration: none; 
+    color: var(--primary-color);
+ }
+ header nav {
+     margin: 7px 0;
+ }
+ header nav ul {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+ }
+ header nav ul li a {
+     padding: 10px 15px;
+     font-weight: bold;
+     font-size: 1.55vw;
+ }
+ header nav ul li a:hover {
+     background: var(--primary-color);
+     color:var(--secondary-color);
+     border-radius: 15px;
+     text-shadow: none;
+ }
+ .hero {
+    background-image: url("../images/header-background.png");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: 500px;
+    padding: 20px;
+}
+.hero h2 {
+    padding: 20px;
+    background-color: var(--tertiary-color);
+}
+.about-me {
+    display: flex;
+}
+.about-me h1 {
+    font-size: 48px;
+    display: flex;
+    background-position: left;
+    justify-content: right;
+    border-right: 3px solid;
+    width: 139.609px;
+    padding: 100px 20px;
+}
+.about-me p {
+    font-size: 20px;
+    display: flex;
+    background-position: right;
+    justify-content: right;
+    align-items: center;
+    margin: 0 auto 35px auto;
+    padding-left: 20px;
+    color: darkgray;
+}
+.work {
+    display: flex;
+}
+.work h1 {
+    font-size: 48px;
+    width: 139.609px;
+}
+.work-h1{
+    display: flex;
+    background-position: left;
+    justify-content: right;
+    border-right: 3px solid;
+    padding: 100px 20px; 
+    align-items: center;
+}
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects:hover {
+    opacity: 40%;
+}
+.projects {
+    border: 3px solid var(--tertiary-color);
+    flex-wrap: wrap;
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    background-size: cover;
+    background-position: right;
+    width: 300px;
+    height: 100px;
+}
+.projects div {
+    padding: 10px;
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+    background-size: cover;
+    background-position: right;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-attachment: fixed;
+    background-position: 80%;
+    width: fit-content;
+    border: 2px var(--tertiary-color);
+}
+.projects div h2,h3 {
+    margin: 0;
+}
+.projects h3 {
+    font-size: 15px;
+}
+.project-1 {
+    background-image: url("../images/run-buddy.jpg");;
+    height: 200px;
+}
+.project-2 {
+    background-image: url("../images/quiz.jpg");
+    height: 200px;
+} 
+.contact-me {
+    display: flex;
+}
+.contact-me h1 {
+    font-size: 40px;
+    display: flex;
+    background-position: left;
+    justify-content: right;
+    border-right: 3px solid;
+    width: 139.609px;
+    padding: 50px 20px;
+}
+.contact-me div {
+    font-size: 20px;
+    display: flex;
+    background-position: right;
+    justify-content: right;
+    align-items: center;
+    padding-left: 20px;
+}
+.contact-me div a {
+    margin: 0 40px;
+    color: var(--secondary-color);
+    border-bottom: 3px solid;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
